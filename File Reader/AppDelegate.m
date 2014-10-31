@@ -3,18 +3,20 @@
 //  File Reader
 //
 //  Created by Rajesh on 28/03/14.
-//  Copyright (c) 2014 TechDevMobile. All rights reserved.
+//  Copyright (c) 2014 Rajesh. All rights reserved.
 //
 
 #import "AppDelegate.h"
 
 @implementation AppDelegate
+@synthesize window,viewController,navigation;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.viewController = [[MainViewController alloc]initWithNibName:@"MainViewController" bundle:nil];
+    navigation = [[UINavigationController alloc]initWithRootViewController:self.viewController];
+    self.window.rootViewController = navigation;
     [self.window makeKeyAndVisible];
     return YES;
 }

@@ -3,7 +3,7 @@
 //  File ReaderTests
 //
 //  Created by Rajesh on 28/03/14.
-//  Copyright (c) 2014 TechDevMobile. All rights reserved.
+//  Copyright (c) 2014 Rajesh. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

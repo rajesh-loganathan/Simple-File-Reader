@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Images</key>
+	<array>
+		<string>img00</string>
+		<string>img01</string>
+		<string>img02</string>
+		<string>img03</string>
+		<string>img04</string>
+		<string>img05</string>
+	</array>
+	<key>Document</key>
+	<array>
+		<string>Text Document</string>
+	</array>
+	<key>Html</key>
+	<array>
+		<string>HTML Document</string>
+	</array>
+	<key>Pdf</key>
+	<array>
+		<string>Core J2ME Technology</string>
+		<string>PDF Document</string>
+	</array>
+	<key>Audio</key>
+	<array>
+		<string>Sample Audio</string>
+	</array>
+	<key>Video</key>
+	<array>
+		<string>Sample Video</string>
+	</array>
+</dict>
+</plist>
